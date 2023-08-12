@@ -1,10 +1,5 @@
 /*
- * Created by ArduinoGetStarted.com
- *
- * This example code is in the public domain
- *
- * Tutorial page: https://arduinogetstarted.com/tutorials/arduino-button-library
- *
+
  * This example reads the state of a button without debounce and print it to Serial Monitor.
  */
 
