@@ -7,8 +7,7 @@
      OR
      Run raw TCP "GET /H" and "GET /L" on PuTTY terminal with 192.168.4.1 as IP address and 80 as port
 
-  Created for arduino-esp32 on 04 July, 2018
-  by Elochukwu Ifediora (fedy0)
+
 */
 //çalıştırılır sonra serial monitorde  en edilir ve internetine bağlanılır siteye gidilir düğme açılıp kapanır.
 
@@ -19,8 +18,8 @@
 #define LED_BUILTIN 2   // Set the GPIO pin where you connected your test LED or comment this line out if your dev board has a built-in LED
 
 // Set these to your desired credentials.
-const char *ssid = "yourAP";
-const char *password = "123456789";
+const char *ssid = "istediğiniz ad ";
+const char *password = "istediğiniz sifre";
 
 WiFiServer server(80);
 
