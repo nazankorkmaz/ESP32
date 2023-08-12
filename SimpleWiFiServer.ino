@@ -19,18 +19,12 @@ sonr alinke gidip aldığımız ıp adresini yazdığımda mavi ledi açıp kapa
  * WiFi shield attached
  * LED attached to pin 5
 
- created for arduino 25 Nov 2012
- by Tom Igoe
-
-ported for sparkfun esp32 
-31.01.2017 by Jan Hendrik Berlin
- 
  */
 
 #include <WiFi.h>
 
-const char* ssid     = "Galaxy A510722";
-const char* password = "123burak456";
+const char* ssid     = "kendi internet adınız";
+const char* password = "kendi şifreniz";
 #define ledPin 2
 WiFiServer server(80);
 
@@ -63,7 +57,7 @@ void setup()
     server.begin();
 
 }
-
+// server internetten kontrol etmek içindir gerisi yukarıdaki kısım aktıflik için
 void loop(){
  WiFiClient client = server.available();   // listen for incoming clients
 
