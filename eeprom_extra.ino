@@ -3,8 +3,6 @@
 
   This simple example demonstrates using other EEPROM library resources
 
-  Created for arduino-esp32 on 25 Dec, 2017
-  by Elochukwu Ifediora (fedy0)
 */
 //1 kere en yapınca 1 kere gelir.
 #include "EEPROM.h"
