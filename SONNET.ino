@@ -82,7 +82,6 @@ void loop() {
 
   delay(4000);
 
-  // a single pixel BURDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN SONRA DİĞERİNİ ,NCELE SPIA BAK BİRAZDAHA BUTONA GEÇ
   //---------------------------------------
   for(int16_t i=0; i<6;i++){
     tft.drawPixel(tft.width()/2, tft.height()/2, ST7735_GREEN);
