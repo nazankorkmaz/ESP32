@@ -30,7 +30,7 @@ void loop() {
     //tft.setTextColor(ST77XX_WHITE);
     //tft.setRotation(4); //0 dikey- 1 yatay - 2diğer dikey -3 diğer yatay bu kadar ama 4 yaparsan tekrar  baştan ilerler mesela
     //tft.setTextSize(1); 
-    tft.println("BASLA"); // PINLERİNE BAK DİĞERİNDE ÖĞREN
+    tft.println("BASLA"); 
     
     tft.drawCircle(88, 88, 10,  0x001F);
     delay(300);
@@ -106,15 +106,15 @@ void tftPrintTest() {
   tft.setTextColor(ST77XX_WHITE);
   tft.setRotation(4); //0 dikey- 1 yatay - 2diğer dikey -3 diğer yatay bu kadar ama 4 yaparsan tekrar  baştan ilerler mesela
   tft.setTextSize(1); //1 den 5e kadar 10px 20px gider
-  tft.println("ENDUSTRIYEL");
+  tft.println("END");
   tft.setTextColor(ST77XX_WHITE);
 tft.setCursor(100, 157); // tft 128*160 1.8
   tft.setTextSize(2);
-  tft.println("ELEKTRONIK"); 
+  tft.println("ELE"); 
   tft.setTextColor(ST77XX_WHITE);
   tft.setCursor(0, 90); // 0px sağa 40px aşağıya
   tft.setTextSize(5);
   //tft.println(" ");
-  tft.println("13831");
+  tft.println("12023");
 }
 */
