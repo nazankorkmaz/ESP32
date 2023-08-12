@@ -11,13 +11,6 @@
     side pins of the potentiometer go to +5V and ground
   - LED connected from digital pin 9 to ground through 220 ohm resistor
 
-  created 29 Dec. 2008
-  modified 9 Apr 2012
-  by Tom Igoe
-
-  This example code is in the public domain.
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogInOutSerial
 */
 
 // These constants won't change. They're used to give names to the pins used:
@@ -71,14 +64,6 @@ void loop() {
 
   - Note: because most Arduinos have a built-in LED attached to pin 13 on the
     board, the LED is optional.
-
-  created by David Cuartielles
-  modified 30 Aug 2011
-  By Tom Igoe
-
-  This example code is in the public domain.
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogInput
 */
 /*
 int sensorPin = A0;   // select the input pin for the potentiometer
